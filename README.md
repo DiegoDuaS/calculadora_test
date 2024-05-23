@@ -1,40 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Calculadora Simple
+Este es un proyecto de una calculadora simple desarrollada con React y Next.js. Permite realizar operaciones básicas como suma, resta, multiplicación y división, además de otras funcionalidades como cambio de signo y cálculo de porcentaje.
 
-## Getting Started
+## Funcionalidades
+- Suma (+)
+- Resta (-)
+- Multiplicación (*)
+- División (/)
+- Cambio de signo (+/-)
+- Cálculo de porcentaje (%)
 
-First, run the development server:
-
-```bash
+## Instalación
+1. Clona este repositorio en tu máquina local:
+```
+git clone https://github.com/DiegoDuaS/calculadora_test.git
+```
+2. Navega al directorio del proyecto:
+```
+cd calculadora_test
+```
+3. Instala las dependencias necesarias:
+```
+npm install
+```
+ 
+## Uso
+Una vez que hayas clonado el repositorio y hayas instalado las dependencias, puedes ejecutar el proyecto localmente:
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+Esto iniciará el servidor de desarrollo de Next.js. Luego, puedes abrir tu navegador y acceder a http://localhost:3000 para ver la calculadora en funcionamiento.
+
+## Pruebas
+Este proyecto incluye pruebas automatizadas para garantizar su correcto funcionamiento. Para ejecutar las pruebas, utiliza el siguiente comando:
+```
+npm test
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contribución
+Si encuentras algún error o tienes alguna sugerencia de mejora, ¡no dudes en abrir un issue o enviar un pull request!
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Créditos 
+Este proyecto fue desarrollado por: [Diego Duarte](https://www.linkedin.com/in/diego-duarte-slowing-080b1b22b/)
